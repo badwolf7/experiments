@@ -1,0 +1,57 @@
+html{
+	color: #072F45;
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+	font-size: 62.5%;
+	width: 1020px;
+	margin: 0 auto;
+}
+#wrapper{
+	width: 1020px;
+	margin: 0 auto;
+}
+
+#content{
+	float: left;
+	clear: both;
+	width: 1020px;
+}
+#content #mazeScreen{
+	position: relative;
+	top: 100px;
+	width: 1014px;
+	height: 600px;
+	border: solid 3px black;
+	z-index: 1;
+	overflow: hidden;
+}
+#content #mazeScreen #floor{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #d1d7da;
+}
+#content #mazeScreen #ceiling{
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	background: #9cddf5;
+}
+#content #maze{
+	position: absolute;
+	top: 105px;
+	right: 225px;
+}
+#content #Canvas1{
+	position: relative;
+	top: 6px;
+	right: 1;
+	z-index: 2;
+}
+#content #Canvas1Objects{
+	position: relative;
+	top: -165px;
+	right: 0;
+	z-index: 3;
+}
